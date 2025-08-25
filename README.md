@@ -35,7 +35,8 @@ cannot access class com.sun.tools.javac.processing.JavacProcessingEnvironment (i
 
 #### 解决方案1：
 JDK降级，使用JDK1.8，也就是java8；
-
+- 其实这里也可以看到：<java.version>1.8</java.version>
+基本在pom.xml中，会看到这个配置，就是JDK版本。
 
 ## 第一步：查看当前的java项目的jdk版本
 通过IDE工具，打开项目工具后，修改JDK版本
